@@ -45,18 +45,24 @@ const Hero = () => {
 
           {/* CTA */}
           <div className="flex gap-4 pt-4">
-            <button className="px-6 py-3 bg-[#00ffd5] text-black font-bold rounded flex items-center gap-2 hover:bg-[#00ffd5]/90 transition-transform hover:scale-105">
-              <Cpu className="w-5 h-5" />
-              View Projects
-            </button>
-
             <a
-              href="#"
-              className="px-6 py-3 border border-gray-700 text-white rounded flex items-center gap-2 hover:border-[#00ffd5] transition-colors"
-            >
-              <Github className="w-5 h-5" />
-              GitHub
-            </a>
+  href="#projects"
+  className="px-6 py-3 bg-[#00ffd5] text-black font-bold rounded flex items-center gap-2 hover:bg-[#00ffd5]/90 transition-transform hover:scale-105"
+>
+  <Cpu className="w-5 h-5" />
+  View Projects
+</a>
+
+           <a
+  href="https://github.com/Narayan1006"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 border border-gray-700 text-white rounded flex items-center gap-2 hover:border-[#00ffd5] transition-colors"
+>
+  <Github className="w-5 h-5" />
+  GitHub
+</a>
+
           </div>
         </div>
 
